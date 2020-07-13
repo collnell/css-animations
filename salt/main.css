@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 65%;
+}
+
+.right {
+    width: 35%;
+}
+/*  add a breakpoint for scaling */
+@media screen and (max-width: 900px) {
+    .left, .right {
+      width: 100%; 
+    }
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+}
+p {
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+}
+.lefttext {
+    margin: 20% 10% 0% 10%;
+}
+.header {
+    margin: 1% 10% 0% 10%;
+    width: 80%;
+}
+.outer {
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 5% 5% 0% 5%;
+}
+
+.outer img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.outer svg {
+    position: absolute;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
