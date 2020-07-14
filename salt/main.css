@@ -20,7 +20,6 @@
     }
   }
 
-
 h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: 'Noto Sans', sans-serif;
@@ -29,21 +28,135 @@ p {
     color: black;
     font-family: 'Noto Sans', sans-serif;
 }
+
+#cal-jan, #cal-feb, #cal-mar, #cal-apr, #cal-may, #cal-jun, #cal-jul, #cal-aug, #cal-sep, #cal-oct, #cal-nov, #cal-dec {
+    display: inline-block;
+    top:-10;
+    left:0;
+    color: white;
+}
+#cal-jan {
+    -webkit-animation: color-change 12s infinite;
+    -moz-animation: color-change 12s infinite;
+    -o-animation: color-change 12s infinite;
+    -ms-animation: color-change 12s infinite;
+    animation: color-change 12s infinite;
+}
+#cal-feb {
+    -webkit-animation: color-change 12s 1s infinite;
+    -moz-animation: color-change 12s 1s infinite;
+    -o-animation: color-change 12s 1s infinite;
+    -ms-animation: color-change 12s 1s infinite;
+    animation: color-change 12s 1s infinite;
+}
+#cal-mar {
+    -webkit-animation: color-change 12s 2s infinite;
+    -moz-animation: color-change 12s 2s infinite;
+    -o-animation: color-change 12s 2s infinite;
+    -ms-animation: color-change 12s 2s infinite;
+    animation: color-change 12s 2s infinite;
+}
+#cal-apr {
+    -webkit-animation: color-change 12s 3s infinite;
+    -moz-animation: color-change 12s 3s infinite;
+    -o-animation: color-change 12s 3s infinite;
+    -ms-animation: color-change 12s 3s infinite;
+    animation: color-change 12s 3s infinite;
+}
+#cal-may {
+    -webkit-animation: color-change 12s 4s infinite;
+    -moz-animation: color-change 12s 4s infinite;
+    -o-animation: color-change 12s 4s infinite;
+    -ms-animation: color-change 12s 4s infinite;
+    animation: color-change 12s 4s infinite;
+}
+#cal-jun {
+    -webkit-animation: color-change 12s 5s infinite;
+    -moz-animation: color-change 12s 5s infinite;
+    -o-animation: color-change 12s 5s infinite;
+    -ms-animation: color-change 12s 5s infinite;
+    animation: color-change 12s 5s infinite;
+}
+#cal-jul {
+    -webkit-animation: color-change 12s 6s infinite;
+    -moz-animation: color-change 12s 6s infinite;
+    -o-animation: color-change 12s 6s infinite;
+    -ms-animation: color-change 12s 6s infinite;
+    animation: color-change 12s 6s infinite;
+}
+#cal-aug {
+    -webkit-animation: color-change 12s 7s infinite;
+    -moz-animation: color-change 12s 7sinfinite;
+    -o-animation: color-change 12s 7sinfinite;
+    -ms-animation: color-change 12s 7sinfinite;
+    animation: color-change 12s 7sinfinite;
+}
+#cal-sep {
+    -webkit-animation: color-change 12s 8s infinite;
+    -moz-animation: color-change 12s 8s infinite;
+    -o-animation: color-change 12s 8s infinite;
+    -ms-animation: color-change 12s 8s infinite;
+    animation: color-change 12s 8s infinite;
+}
+#cal-oct {
+    -webkit-animation: color-change 12s 9s infinite;
+    -moz-animation: color-change 12s 9s infinite;
+    -o-animation: color-change 12s 9s infinite;
+    -ms-animation: color-change 12s 9s infinite;
+    animation: color-change 12s 9s infinite;
+}
+#cal-nov {
+    -webkit-animation: color-change 12s 10s infinite;
+    -moz-animation: color-change 12s 10s infinite;
+    -o-animation: color-change 12s 10s infinite;
+    -ms-animation: color-change 12s 10s infinite;
+    animation: color-change 12s 10s infinite;
+}
+#cal-dec {
+    -webkit-animation: color-change 12s 11s infinite;
+    -moz-animation: color-change 12s 11s infinite;
+    -o-animation: color-change 12s 11s infinite;
+    -ms-animation: color-change 12s 11s infinite;
+    animation: color-change 12s 11s infinite;
+}
+#dash, #s, #a, #l, #t, #f, #r, #o, #n, #t2 {
+    stroke: black;
+    fill: black;
+    stroke-width: 1px;
+}
+
+
+@keyframes draw {
+    0% {stroke-dashoffset: -500px}
+    100% {stroke-dashoffset: 0px;}
+}
 .lefttext {
     margin: 20% 10% 0% 10%;
 }
 .header {
     margin: 1% 10% 0% 10%;
     width: 80%;
+    position: sticky;
+    top: 0;
 }
 .outer {
     background-color: white;
-    position: relative;
+    position: sticky;
     display: inline-block;
     text-align: center;
     width: 100%;
     margin: 5% 5% 0% 5%;
+    top: 0;
 }
+#saltywater {
+    position: absolute;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 
 .outer img {
     display: block;
@@ -58,4 +171,11 @@ p {
     width: 100%;
     top: 0;
     left: 0;
+}
+
+@keyframes color-change {
+    0% {color: black; }
+    8.34% {color: white; }
+    100% {color: white; }
+
 }
