@@ -125,11 +125,6 @@ p {
     stroke-width: 1px;
 }
 
-
-@keyframes draw {
-    0% {stroke-dashoffset: -500px}
-    100% {stroke-dashoffset: 0px;}
-}
 .lefttext {
     margin: 20% 10% 0% 10%;
 }
@@ -173,9 +168,216 @@ p {
     left: 0;
 }
 
-@keyframes color-change {
-    0% {color: black; }
-    8.34% {color: white; }
-    100% {color: white; }
+/* markers for sea level rise */
 
+
+#sealevelrise {
+    stroke: black;
+    fill: transparent;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width:5px;
+}
+
+/* lines for sea level predictions */
+#ft1 {
+    stroke-dasharray: 300px;
+    stroke-dashoffset: -300px;
+    Animation: write300 .5s linear 12s forwards;
+}
+
+#ft2 {
+    stroke-dasharray: 300px;
+    stroke-dashoffset: -300px;
+    Animation: write300 .5s linear 12.2s forwards;
+}
+
+#ft3 {
+    stroke-dasharray: 300px;
+    stroke-dashoffset: -300px;
+    Animation: write300 .5s linear 12.4s forwards;
+}
+/* annotations for sea level predictions */
+/* 1 ft */
+#num1 {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 12.7s forwards;
+}
+#f3a, #f3b {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 12.9s forwards;
+}
+#t5a, #t5b {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 13.1s forwards;
+}
+/* 2 ft */
+#num2 {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 13.3s forwards;
+}
+#f2a, #f2b {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 13.6s forwards;
+}
+#t4a, #t4b {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 13.8s forwards;
+}
+/* 3ft */
+#num3 {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 14s forwards;
+}
+#f1a, #f1b {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 14.2s forwards;
+}
+#t3a, #t3b {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 14.4s forwards;
+}
+/* intakes line */
+#intake {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 .3s linear 14.6s forwards;
+}
+
+/* letter writing animation */
+
+/* define vars for letter timing */
+:root {
+	--anim-time: 0.3s;
+    --anim-delay: 0.18s;
+}
+
+/* each letter is animated individually so time sequentially */
+#d {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 71) forwards;
+}
+
+#r1 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 72) forwards;
+}
+#i1 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 73) forwards;
+}
+#n1 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 74) forwards;
+}
+#k1a, #k1b {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 75) forwards;
+}
+#i2 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 76) forwards;
+}
+#n2 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 77) forwards;
+}
+#g {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 78) forwards;
+}
+#w {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 79) forwards;
+}
+#a1a, #a1b {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 80) forwards;
+}
+#t1a, #t1b {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 81) forwards;
+}
+#e1a, #e1b {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 82) forwards;
+}
+#r2 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 83) forwards;
+}
+#i3 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 84) forwards;
+}
+#n3 {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    stroke-width: 4px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 85) forwards;
+}
+#t2a, #t2b {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 86) forwards;
+}
+#a2a, #a2b {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 87) forwards;
+}
+#k2a, #k2b, #k2c {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 88) forwards;
+}
+#e2a, #e2b {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 89) forwards;
+}
+#s {
+    stroke-dasharray:200px;
+    stroke-dashoffset: -200px;
+    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 90) forwards;
+}
+@keyframes write500 {
+    0% {stroke-dashoffset: -500px}
+    100% {stroke-dashoffset: 0px;}
+}
+@keyframes write400 {
+    0% {stroke-dashoffset: -400px}
+    100% {stroke-dashoffset: 0px;}
+}
+@keyframes write300 {
+    0% {stroke-dashoffset: -300px}
+    100% {stroke-dashoffset: 0px;}
+}
+
+@keyframes write200 {
+    0% {stroke-dashoffset: -200px}
+    100% {stroke-dashoffset: 0px;}
 }
