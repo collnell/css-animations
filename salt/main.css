@@ -176,193 +176,143 @@ p {
     fill: transparent;
     stroke-linecap:round;
     stroke-linejoin:round;
-    stroke-width:5px;
+    stroke-width: 5.5px;
+}
+
+#ft1, #ft2, #ft3 {
+    stroke-width: 5.5px;
+    stroke-dasharray: 300px;
+    stroke-dashoffset: -300px;
+}
+
+#num1, #num2, #num3, #f2a, #f2b, #t4a, #t4b, #f3a, #f3b, #t5a, #t5b, #f1a, #f1b, #t3a, #t3b, #intake {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
 }
 
 /* lines for sea level predictions */
 #ft1 {
-    stroke-dasharray: 300px;
-    stroke-dashoffset: -300px;
-    Animation: write300 .5s linear 12s forwards;
+
+    Animation: write300 .4s ease-in-out 12s forwards;
 }
 
 #ft2 {
-    stroke-dasharray: 300px;
-    stroke-dashoffset: -300px;
-    Animation: write300 .5s linear 12.2s forwards;
+    Animation: write300 .4s ease-in-out 12.2s forwards;
 }
 
 #ft3 {
-    stroke-dasharray: 300px;
-    stroke-dashoffset: -300px;
-    Animation: write300 .5s linear 12.4s forwards;
+    Animation: write300 .4s ease-in-out 12.4s forwards;
 }
 /* annotations for sea level predictions */
 /* 1 ft */
 #num1 {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 12.7s forwards;
+    Animation: write200 .2s ease-in-out 12.6s forwards;
 }
 #f3a, #f3b {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 12.9s forwards;
+    Animation: write200 .3s ease-in-out 12.7s forwards;
 }
 #t5a, #t5b {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 13.1s forwards;
+    Animation: write200 .3s ease-in-out 12.9s forwards;
 }
 /* 2 ft */
 #num2 {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 13.3s forwards;
+    Animation: write200 .2s ease-in-out 13.1s forwards;
 }
 #f2a, #f2b {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 13.6s forwards;
+    Animation: write200 .3s ease-in-out 13.25s forwards;
 }
 #t4a, #t4b {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 13.8s forwards;
+    Animation: write200 .3s ease-in-out 13.45s forwards;
 }
 /* 3ft */
 #num3 {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 14s forwards;
+    Animation: write200 .2s ease-in-out 13.65s forwards;
 }
 #f1a, #f1b {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 14.2s forwards;
+    Animation: write200 .3s ease-in-out 13.8s forwards;
 }
 #t3a, #t3b {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 14.4s forwards;
+    Animation: write200 .3s ease-in-out 14s forwards;
 }
 /* intakes line */
 #intake {
-    stroke-dasharray: 200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 .3s linear 14.6s forwards;
+    Animation: write200 .2s ease-in-out 14s forwards;
 }
 
 /* letter writing animation */
+#d, #r1, #i1, #n1, #k1a, #k1b, #i2, #n2, #g, #w, #a1a, #a1b, #t1a, #t1b, #e1a, #e1b, #r2, #i3, #n3, #t2a, #t2b, #a2a, #a2b,#k2a, #k2b, #k2c, #e2a, #e2b, #s {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: -200px;
+}
 
 /* define vars for letter timing */
 :root {
-	--anim-time: 0.3s;
-    --anim-delay: 0.18s;
+	--anim-time: 0.23s;
+    --anim-delay: 0.15s;
+    --intake-start: 14s;
 }
 
 /* each letter is animated individually so time sequentially */
 #d {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 71) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1) forwards;
 }
 
 #r1 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 72) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 2) forwards;
 }
 #i1 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 73) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 3) forwards;
 }
 #n1 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 74) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 4) forwards;
 }
 #k1a, #k1b {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 75) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 5) forwards;
 }
 #i2 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 76) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 6) forwards;
 }
 #n2 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 77) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 7) forwards;
 }
 #g {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 78) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 8) forwards;
 }
 #w {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 79) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 9) forwards;
 }
 #a1a, #a1b {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 80) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 10) forwards;
 }
 #t1a, #t1b {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 81) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 11) forwards;
 }
 #e1a, #e1b {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 82) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 12) forwards;
 }
 #r2 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 83) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 13) forwards;
 }
 #i3 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 84) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 14) forwards;
 }
 #n3 {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    stroke-width: 4px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 85) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 15) forwards;
 }
 #t2a, #t2b {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 86) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 16) forwards;
 }
 #a2a, #a2b {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 87) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 17) forwards;
 }
 #k2a, #k2b, #k2c {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 88) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 18) forwards;
 }
 #e2a, #e2b {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 89) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 19) forwards;
 }
 #s {
-    stroke-dasharray:200px;
-    stroke-dashoffset: -200px;
-    Animation: write200 var(--anim-time) linear calc(var(--anim-delay) * 90) forwards;
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 20) forwards;
 }
 @keyframes write500 {
     0% {stroke-dashoffset: -500px}
