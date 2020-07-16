@@ -14,7 +14,7 @@
     width: 35%;
 }
 /*  add a breakpoint for scaling */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .left, .right {
       width: 100%; 
     }
@@ -29,96 +29,7 @@ p {
     font-family: 'Noto Sans', sans-serif;
 }
 
-#cal-jan, #cal-feb, #cal-mar, #cal-apr, #cal-may, #cal-jun, #cal-jul, #cal-aug, #cal-sep, #cal-oct, #cal-nov, #cal-dec {
-    display: inline-block;
-    top:-10;
-    left:0;
-    color: white;
-}
-#cal-jan {
-    -webkit-animation: color-change 12s infinite;
-    -moz-animation: color-change 12s infinite;
-    -o-animation: color-change 12s infinite;
-    -ms-animation: color-change 12s infinite;
-    animation: color-change 12s infinite;
-}
-#cal-feb {
-    -webkit-animation: color-change 12s 1s infinite;
-    -moz-animation: color-change 12s 1s infinite;
-    -o-animation: color-change 12s 1s infinite;
-    -ms-animation: color-change 12s 1s infinite;
-    animation: color-change 12s 1s infinite;
-}
-#cal-mar {
-    -webkit-animation: color-change 12s 2s infinite;
-    -moz-animation: color-change 12s 2s infinite;
-    -o-animation: color-change 12s 2s infinite;
-    -ms-animation: color-change 12s 2s infinite;
-    animation: color-change 12s 2s infinite;
-}
-#cal-apr {
-    -webkit-animation: color-change 12s 3s infinite;
-    -moz-animation: color-change 12s 3s infinite;
-    -o-animation: color-change 12s 3s infinite;
-    -ms-animation: color-change 12s 3s infinite;
-    animation: color-change 12s 3s infinite;
-}
-#cal-may {
-    -webkit-animation: color-change 12s 4s infinite;
-    -moz-animation: color-change 12s 4s infinite;
-    -o-animation: color-change 12s 4s infinite;
-    -ms-animation: color-change 12s 4s infinite;
-    animation: color-change 12s 4s infinite;
-}
-#cal-jun {
-    -webkit-animation: color-change 12s 5s infinite;
-    -moz-animation: color-change 12s 5s infinite;
-    -o-animation: color-change 12s 5s infinite;
-    -ms-animation: color-change 12s 5s infinite;
-    animation: color-change 12s 5s infinite;
-}
-#cal-jul {
-    -webkit-animation: color-change 12s 6s infinite;
-    -moz-animation: color-change 12s 6s infinite;
-    -o-animation: color-change 12s 6s infinite;
-    -ms-animation: color-change 12s 6s infinite;
-    animation: color-change 12s 6s infinite;
-}
-#cal-aug {
-    -webkit-animation: color-change 12s 7s infinite;
-    -moz-animation: color-change 12s 7sinfinite;
-    -o-animation: color-change 12s 7sinfinite;
-    -ms-animation: color-change 12s 7sinfinite;
-    animation: color-change 12s 7sinfinite;
-}
-#cal-sep {
-    -webkit-animation: color-change 12s 8s infinite;
-    -moz-animation: color-change 12s 8s infinite;
-    -o-animation: color-change 12s 8s infinite;
-    -ms-animation: color-change 12s 8s infinite;
-    animation: color-change 12s 8s infinite;
-}
-#cal-oct {
-    -webkit-animation: color-change 12s 9s infinite;
-    -moz-animation: color-change 12s 9s infinite;
-    -o-animation: color-change 12s 9s infinite;
-    -ms-animation: color-change 12s 9s infinite;
-    animation: color-change 12s 9s infinite;
-}
-#cal-nov {
-    -webkit-animation: color-change 12s 10s infinite;
-    -moz-animation: color-change 12s 10s infinite;
-    -o-animation: color-change 12s 10s infinite;
-    -ms-animation: color-change 12s 10s infinite;
-    animation: color-change 12s 10s infinite;
-}
-#cal-dec {
-    -webkit-animation: color-change 12s 11s infinite;
-    -moz-animation: color-change 12s 11s infinite;
-    -o-animation: color-change 12s 11s infinite;
-    -ms-animation: color-change 12s 11s infinite;
-    animation: color-change 12s 11s infinite;
-}
+
 #dash, #s, #a, #l, #t, #f, #r, #o, #n, #t2 {
     stroke: black;
     fill: black;
@@ -194,49 +105,89 @@ p {
 #ft1 {
 
     Animation: write300 .4s ease-in-out 12s forwards;
+    -webkit-animation: write300 .4s ease-in-out 12s forwards;
+    -moz-animaion: write300 .4s ease-in-out 12s forwards;
+    -o-animation: write300 .4s ease-in-out 12s forwards;
 }
 
 #ft2 {
     Animation: write300 .4s ease-in-out 12.2s forwards;
+    -webkit-animation: write300 .4s ease-in-out 12.2s forwards;
+    -moz-animaion: write300 .4s ease-in-out 12.2s forwards;
+    -o-animation: write300 .4s ease-in-out 12.2s forwards;
 }
 
 #ft3 {
     Animation: write300 .4s ease-in-out 12.4s forwards;
+    -webkit-animation: write300 .4s ease-in-out 12.4s forwards;
+    -moz-animaion: write300 .4s ease-in-out 12.4s forwards;
+    -o-animation: write300 .4s ease-in-out 12.4s forwards;
 }
 /* annotations for sea level predictions */
 /* 1 ft */
 #num1 {
     Animation: write200 .2s ease-in-out 12.6s forwards;
+    -webkit-animation: write200 .2s ease-in-out 12.6s forwards;
+    -moz-animaion: write200 .2s ease-in-out 12.6s forwards;
+    -o-animation: write200 .2s ease-in-out 12.6s forwards;
 }
 #f3a, #f3b {
     Animation: write200 .3s ease-in-out 12.7s forwards;
+    -webkit-animation: write200 .3s ease-in-out 12.7s forwards;
+    -moz-animaion: write200 .3s ease-in-out 12.7s forwards;
+    -o-animation: write200 .3s ease-in-out 12.7s forwards;
 }
 #t5a, #t5b {
     Animation: write200 .3s ease-in-out 12.9s forwards;
+    -webkit-animation: write200 .3s ease-in-out 12.9s forwards;
+    -moz-animaion: write200 .3s ease-in-out 12.9s forwards;
+    -o-animation: write200 .3s ease-in-out 12.9s forwards;
 }
 /* 2 ft */
 #num2 {
     Animation: write200 .2s ease-in-out 13.1s forwards;
+    -webkit-animation: write200 .2s ease-in-out 13.1s forwards;
+    -moz-animaion: write200 .2s ease-in-out 13.1s forwards;
+    -o-animation: write200 .2s ease-in-out 13.1s forwards;
 }
 #f2a, #f2b {
-    Animation: write200 .3s ease-in-out 13.25s forwards;
+    Animation: write200 .3s ease-in-out 13.25s forward;
+    -webkit-animation: write200 .3s ease-in-out 13.25s forwards;
+    -moz-animaion: write200 .3s ease-in-out 13.25s forwards;
+    -o-animation: write200 .3s ease-in-out 13.25s forwards;
 }
 #t4a, #t4b {
-    Animation: write200 .3s ease-in-out 13.45s forwards;
+    Animation: write200 .3s ease-in-out 13.45s forward;
+    -webkit-animation:  write200 .3s ease-in-out 13.45s forwards;
+    -moz-animaion: write200 .3s ease-in-out 13.45s forwards;
+    -o-animation: write200 .3s ease-in-out 13.45s forwards;
 }
 /* 3ft */
 #num3 {
     Animation: write200 .2s ease-in-out 13.65s forwards;
+    -webkit-animation: write200 .2s ease-in-out 13.65s forwards;
+    -moz-animaion: write200 .2s ease-in-out 13.65s forwards;
+    -o-animation: write200 .2s ease-in-out 13.65s forwards;
 }
 #f1a, #f1b {
     Animation: write200 .3s ease-in-out 13.8s forwards;
+    -webkit-animation: write200 .3s ease-in-out 13.8s forwards;
+    -moz-animaion: write200 .3s ease-in-out 13.8s forwards;
+    -o-animation: write200 .3s ease-in-out 13.8s forwards;
 }
 #t3a, #t3b {
     Animation: write200 .3s ease-in-out 14s forwards;
+    -webkit-animation: write200 .3s ease-in-out 14s forwards;
+    -moz-animaion: write200 .3s ease-in-out 14s forwards;
+    -o-animation: write200 .3s ease-in-out 14s forwards;
 }
+
 /* intakes line */
 #intake {
     Animation: write200 .2s ease-in-out 14s forwards;
+    -webkit-animation: write200 .2s ease-in-out 14s forwards;
+    -moz-animaion:write200 .2s ease-in-out 14s forwards;
+    -o-animation: write200 .2s ease-in-out 14s forwards;
 }
 
 /* letter writing animation */
@@ -254,143 +205,143 @@ p {
 
 /* each letter is animated individually so time sequentially */
 #d {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1);
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 1) forwards;
 
 }
 #r1 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 2);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 2);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 2);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 2);
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 2) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 2) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 2) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 2) forwards;
 
 }
 #i1 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 3);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 3);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 3);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 3);
+    Animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 3) forwards;
+    -webkit-A: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 3) forwards;
+    -moz-A: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 3) forwards;
+    -o-A: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 3) forwards;
 
 }
 #n1 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 4);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 4);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 4);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 4);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 4) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 4) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 4) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 4) forwards;
 
 }
 #k1a, #k1b {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 5);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 5);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 5);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 5);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 5) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 5) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 5) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 5) forwards;
 
 }
 #i2 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 6);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 6);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 6);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 6);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 6) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 6) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 6) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 6) forwards;
 
 }
 #n2 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 7);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 7);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 7);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 7);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 7) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 7) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 7) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 7) forwards;
 
 }
 #g {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 8);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 8);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 8);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 8);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 8) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 8) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 8) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 8) forwards;
 
 }
 #w {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 9);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 9);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 9);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 9);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 9) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 9) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 9) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) * 9) forwards;
 
 }
 #a1a, #a1b {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 10);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *10);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *10);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *10);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 10) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *10) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *10) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *10) forwards;
 
 }
 #t1a, #t1b {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 11);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *11);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *11);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *11);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 11) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *11) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *11) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *11) forwards;
 
 }
 #e1a, #e1b {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 12);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *12);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *12);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *12);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 12) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *12) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *12) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *12) forwards;
 
 }
 #r2 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 13);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *13);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *13);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *13);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 13) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *13) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *13) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *13) forwards;
 
 }
 #i3 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 14);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *14);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *14);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *14);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 14) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *14) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *14) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *14) forwards;
 
 }
 #n3 {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 15);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *15);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *15);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *15);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 15) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *15) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *15) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *15) forwards;
 
 }
 #t2a, #t2b {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 16);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *16);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *16);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *16);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 16) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *16) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *16) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *16) forwards;
 
 }
 #a2a, #a2b {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 17);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *17);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *17);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *17);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 17) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *17) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *17) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *17) forwards;
 
 }
 #k2a, #k2b, #k2c {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 18);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *18);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *18);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *18);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 18) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *18) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *18) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *18) forwards;
 
 }
 #e2a, #e2b {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 19);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *19);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *19);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *19);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 19) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *19) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *19) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *19) forwards;
 
 }
 #s {
-    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 20);
-    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *20);
-    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *20);
-    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *20);
+    animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) +var(--anim-delay) * 20) forwards;
+    -webkit-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *20) forwards;
+    -moz-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *20) forwards;
+    -o-animation: write200 var(--anim-time) ease-in-out calc(var(--intake-start) + var(--anim-delay) *20) forwards;
 
 }
 @keyframes write500 {
